@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245, 245, 245);
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #1a202c;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: font-weight 0.3s;
+}
+
+.navbar li:hover {
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 0.25rem;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5rem;
+}
+
+.todo-text {
+  flex-grow: 1;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
