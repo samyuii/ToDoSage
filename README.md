@@ -1,17 +1,17 @@
 # TodoSage
 
-TodoSage is an open-source todo application built with React, designed to streamline and enhance task management.
+ToDoSage is an open-source Todo application built with React, designed to help you manage your tasks efficiently.
 
 ## Features
 
 - **Add and Edit Tasks:** Easily add new tasks with descriptions and due dates. Edit existing tasks to keep information up-to-date.
-- **Complete Tasks:** Mark tasks as completed to keep track of your progress.
-- **Persistent Storage:** Utilizes local storage to save tasks between sessions, ensuring your tasks are always accessible.
+- **Completion Tracking:** Mark tasks as completed to keep track of your progress.
+- **Persistent Storage:** Utilizes browser's local storage to save tasks between sessions, ensuring your tasks are always accessible.
 - **Responsive Design:** Works seamlessly across desktop and mobile devices for convenience.
 
 ## Installation
 
-To run TodoSage locally, follow these steps:
+To run TodoSage locally on your machine, follow these steps:
 
 1. Clone the repository:
 
@@ -42,15 +42,14 @@ To run TodoSage locally, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! Here's how you can contribute to TodoSage:
+Contributions are welcome! Here's how you can contribute to ToDoSage:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-Please make sure to update tests as appropriate.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix (`git checkout -b feature/AmazingFeature`).
+3. Make changes and test your changes locally.
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+5. Push to the branch (`git push origin feature/AmazingFeature`).
+6. Open a pull request.
 
 ## Contact
 
@@ -58,6 +57,4 @@ For issues and feature requests, please open an issue in the repository-
 - [TodoSage Issues](https://github.com/theSamyak/TodoSage/issues)
 
 Feel free to contact me:
-- Your Name: [Your Email](hellosamyakj@gmail.com)
-```
-
+- [My Email](hellosamyakj@gmail.com)
